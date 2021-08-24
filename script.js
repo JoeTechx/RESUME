@@ -36,7 +36,12 @@ body.stop().animate({scrollTop:0}, 500, 'swing', function() {
              backSpeed: 60,
              loop:true
            });
-   
+           var typed = new Typed(".typing-3",{
+            strings: ["Oyin Joe"], 
+             typeSpeed: 100,
+             backSpeed: 60,
+             loop:true
+           });
        // owl carousel script
     
        $('.carousel').owlCarousel({
